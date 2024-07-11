@@ -110,3 +110,22 @@ header {
     margin-top: 32px;
 }
 /* Feature part CSS end here */
+
+/* Expertise part CSS start from here */
+.expertise {
+    background: rgba(39, 39, 39, 0.05);
+    padding: 85px 0;
+}
+.expertise .section-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.expertise .section-content .content h3 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+/* Expertise part CSS end here */
