@@ -53,6 +53,7 @@ p {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 /* Frequently used items end here */
 
@@ -81,7 +82,7 @@ header {
 
 /* Feature part CSS start from here */
 #feature {
-    padding: 120px 0;
+    margin: 120px 0;
 }
 .feature-content {
     display: flex;
@@ -129,3 +130,36 @@ header {
     margin-top: 24px;
 }
 /* Expertise part CSS end here */
+
+/* Hot Deals part CSS start from here */
+#hot-deal {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0;
+    margin: 120px 0;
+}
+#hot-deal .hot-deal-content-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#hot-deal .hot-deal-content-main .hot-deal-text {
+    width: 75%;
+    max-width: 594px;
+    text-align: center;
+}
+
+#hot-deal .hot-deal-content-main .hot-deal-text * {
+    margin-bottom: 24px;
+}
+#hot-deal .hot-deal-content-main .hot-deal-text h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-deal-content-main .hot-deal-img {
+    width: 310px;
+}
+.hot-deal-content-main .hot-deal-img img {
+    width: 100%;
+}
+/* Hot Deals part CSS end here */
