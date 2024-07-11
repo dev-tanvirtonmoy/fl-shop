@@ -207,3 +207,38 @@ header {
     font-weight: 400;
 }
 /* Newsletter part CSS end here */
+
+/* Footer part CSS start from here */
+footer {
+    background-color: #111010;
+    padding: 120px 0;
+}
+#footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;   
+    width: 625px;
+    margin: auto;
+}
+#footer .footer-content span {
+    color: #E55473;
+}
+#footer .footer-content h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+}
+#footer .footer-content p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+}
+#footer .copyright span {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Footer part CSS end here */
