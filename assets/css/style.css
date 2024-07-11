@@ -163,3 +163,47 @@ header {
     width: 100%;
 }
 /* Hot Deals part CSS end here */
+
+/* Ig part CSS start from here */
+
+#instagram .ig-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+#instagram .ig-content .ig-img img{
+    width: 100%;
+}
+/* Ig part CSS end here */
+
+/* Newsletter part CSS start from here */
+#newsletter {
+    background: url(../images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    margin: 120px 0;
+}
+#newsletter .newsletter-content form{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+}
+#newsletter .newsletter-content input{
+    background-color: #fff;
+    flex-grow: 1;
+    border: none;
+    border-radius: 8px;
+    outline: 0;
+    padding: 22px;
+}
+#newsletter .newsletter-content input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Newsletter part CSS end here */
